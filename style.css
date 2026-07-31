@@ -78,7 +78,6 @@ h1, h2, h3 {
   font-weight: 500;
 }
 .main-nav a:hover { color: var(--accent); text-decoration: none; }
-.main-nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 
 .nav-toggle {
   display: none;
@@ -187,15 +186,6 @@ h1, h2, h3 {
 .section-title {
   font-size: 1.6rem;
   margin-bottom: 32px;
-}
-
-.page-header {
-  padding-bottom: 8px;
-  border-top: none;
-}
-.page-title {
-  font-size: 2.2rem;
-  margin-top: 6px;
 }
 
 .sub-heading {
@@ -311,18 +301,6 @@ h1, h2, h3 {
 }
 .project-card.small { padding: 16px 20px; }
 
-.link-card {
-  display: block;
-  color: inherit;
-  transition: border-color 0.15s ease, transform 0.15s ease;
-}
-.link-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
-  text-decoration: none;
-}
-.link-card h3 { color: var(--accent); }
-
 /* Skills */
 .skills-grid {
   display: grid;
@@ -367,18 +345,10 @@ h1, h2, h3 {
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 28px 24px;
+  text-align: center;
   color: var(--ink-soft);
   font-size: 0.82rem;
 }
-.footer-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.footer-inner p { margin: 0; }
-.footer-inner .social-row { font-size: 0.82rem; }
 
 /* Responsive */
 @media (max-width: 720px) {

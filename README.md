@@ -2,15 +2,9 @@
 
 Personal academic portfolio website for Afroza Nowshin, PhD student in Electrical Engineering and Computer Science at The University of Toledo.
 
-## Pages
+## Structure
 
-- `index.html` — Home
-- `about.html` — About, education, skills, and volunteer activities
-- `research.html` — Research interests and research experience
-- `publications.html` — Publications
-- `experience.html` — Professional and teaching experience
-- `projects.html` — Professional and undergraduate projects
-- `contact.html` — Contact details
+Single-page site (`index.html`) with sections for About, Research, Experience, Publications, Projects, Teaching, Skills, and Contact, linked via an anchor-based navigation bar.
 
 ## Stack
 
